@@ -1,0 +1,39 @@
+Goal, timeline, borders, needed resources (time,money, machinnery, people), stakeholdes
+
+--- PROBLEM STATEMENT ---
+Metric, size, time, facts based, minimal jargon, NO SOLUTION INCLUDED!!!
+
+"We have too much inventory and we need to have less by implementing JID" No time, what is the metric? 
+It contains the solution
+
+--- GOAL ---
+Inform others (stakeholders), obtain approval, measure sucess
+What? How much? By when?
+
+--- CRITICAL PATH METHOD --- 
+Stanley Kubrick method Napoleon movie which was never shot
+Schedule of activities (Start and End, Duration, Order, Buffer)
+Table of activities: Activity, Predecessor, Duration (based on experience and flexible)
+Create a diagram with the activities and arrows (left to right)
+Put start time // duration // end time above the activities box 
+latest start time // buffer difference between earliest and latest // latest end time below the activities box
+(CRITICAL PATH IS THE SEQUENCE WHERE YOU HAVE NO BUFFER TIME) - cannot delay 
+
+--- GANT CHART --- 
+Different colors, weaks, activities
+easy to comunicate
+Use CPM for more detailed info 
+Measure phases takes more time, together with improve 
+SIPOC usually helps to validate the scope 
+Questions : Owner of the process? Who give inputs? Who is the customer? What resources does the process use? 
+...Which documentation is used? Which steps can be improved?
+SIPOC (Supplier, Input, Process, Output, Customer)
+SIPOC Analysis: Define project start and end step. Define intermediate
+It is also a contract (scope) for the project
+
+--- PROJECT CHARTER ---
+1 page
+Problem and Goal
+Team members involved 
+Scope and stakeholders 
+Resources 

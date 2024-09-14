@@ -1,0 +1,26 @@
+--- VOC --- 
+Voice of consumers (vague) but opinion of customers
+CTQ Critial to quality are not so vague 
+Choosing a measure method 
+Questionnaires or interviews or observation 
+1 Questionnaires use closed and straigthforward questions Efficient and independent 
+2 Interview take more time but gives more insights. Usually range between 10 and 30 
+3 Observation. We do that in cases where no one knows about the project or cant answer the questions 
+
+--- Measuring Scales ---
+
+Nominal or categorical variables features: Words cannot be put in low-high scale
+Ordinal: Words or range of numbers that can be put in low-high scale
+Parametric: numbers not range of them (gives more freedom to analytical methods)
+YOU CANNOT UPGRADE; ALWAYS DOWNGRADE
+
+--- Central Tendency ---
+Mode : Values that pops up the most (used for nominal scale)
+Median : Value in the middle when values are put in order
+Arithmetic mean: Average 
+Geometric mean: Suitable for percentual CHANGES (arithmetic is now). put all numbers in decimals and multiply them
+...then raise to 1/n of observations. This is the mean per year (in this case)
+
+No python importar dados usando pandas
+calcular a media geometrica usando uma funcao com for loop
+calcular geo mean 
