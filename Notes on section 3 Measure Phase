@@ -35,8 +35,19 @@ Population is all data (N)
 
 --- SAMPLING TECHNIQUES ---
 Probability sampling techniques (same chance for all population)
+- Considers the whole population (like a lottery)
+-- Systematic sampling every n th sample is pick
+
+-- Stratified sampling (GOLDEN STANDARD) - ONLY IF YOU KNOW THE PROPORTIONS!!!!!
+Takes into account the proportion of between the different types of your sample (cars and people, blue and black). than calculates the strata and takes this into account when sampling 
 
 Non-probability sampling techniques (not same chance for all population). 
 - Sample less representative
 - Convenient
 - First encountered 
+
+--- NORMAL DISTRIBUTION ---
+Only for parametric data (visual inspection, simmetry, peak in the middle)
+You can plot it using seaborn and countplot or histogram
+Mathematic inspection (tests) 
+
