@@ -24,3 +24,19 @@ Geometric mean: Suitable for percentual CHANGES (arithmetic is now). put all num
 No python importar dados usando pandas
 calcular a media geometrica usando uma funcao com for loop
 calcular geo mean 
+
+--- MEAN OR MEDIAN? ---
+Use both. Mean is more sensitive to bigger values
+Median is the middle term of all terms 
+
+--- SAMPLE OR POPULATION
+Sample is considered a subset of the population (n)
+Population is all data (N)
+
+--- SAMPLING TECHNIQUES ---
+Probability sampling techniques (same chance for all population)
+
+Non-probability sampling techniques (not same chance for all population). 
+- Sample less representative
+- Convenient
+- First encountered 
