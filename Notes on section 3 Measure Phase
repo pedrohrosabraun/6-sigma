@@ -49,5 +49,14 @@ Non-probability sampling techniques (not same chance for all population).
 --- NORMAL DISTRIBUTION ---
 Only for parametric data (visual inspection, simmetry, peak in the middle)
 You can plot it using seaborn and countplot or histogram
-Mathematic inspection (tests) 
+Mathematic inspection (tests) - Smirnov-test p-value to reject the null hypothesis 
+
+RULE OF THUMB 
+68, 95, 99% fall into sigma, 2sigma, 3 sigma, respectively 
+
+Z-SCORE TABLE (ROUGHLY ESTIMATION BECAUSE OF THE NORMAL DISTRIBUTUON NOT PERFECT ALSO)
+- Score is the sample number Z=(Score/mean)/(standard deviation) 
+- Then you read your Z on the table and the last digits 
+- The number found is the remaining area (percentage) on the curve. it means how far is the data from the mean
+- A z-score tells us the number of standard deviations a value is from the mean of a given distribution. negative z-scores indicate the value lies below the mean. positive z-scores indicate the value lies above the mean.
 
