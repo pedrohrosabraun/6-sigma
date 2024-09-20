@@ -8,3 +8,7 @@ Root cause of your problem??
 
 
 --- OLS Ordinary least squares ---
+Residuals: distance between regression function and raw data (y axis)
+Homoscedastic: Residuals distributed evenly
+Heteroscedastic: Residuals distributed unevenly
+Use LinearRegression from sklearn models in Python to get the Rsquared 
