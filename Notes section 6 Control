@@ -1,0 +1,16 @@
+Check if your solution remains a solution
+Statistical Process Control charts 
+Target value, upper control limit, lower control limit
+Values can vary inside a range (limits). if not, is is a outlier out a of assigned control 
+There could be trends inside the control range (morale of employees fe)
+There could be a shift also (a onset of the line,abruptal change)
+
+--- Origins of SPC ---
+Dr. Heming during war and in Japan later 
+
+--- 3 Sigma Control Chart --- 
+For example we look first on a chart with the measurements of the diameter of a bearing a we see that the shape
+of distribution looks a like a normal distribution, with a mean and some points out of the control (+3sigma)
+Then we plot the process performance mean over time and we have the limits (upper and low) and this are -3 and +3 sigma. sigma is the standard deviation in this case 
+We need to tackle the assignable variation (fatigue, wear, distraction)
+Depending on the data (discrete like good/bad, number of defects per unit; or continuos like weight, temperature etc), we choose a chart for the control 

@@ -4,3 +4,16 @@ DOE, PokeYoke, Lean Visual Management
 Factorial Design (>1 Factors like 2 factors and with levels)
 Number of experiments depends on the levels of each factors (multiply by themselves)
 We have also the interaction effect 
+
+--- Poka yoke ---
+Mistakes by the operator 
+Then you make something mistake proof
+Requires inspection, repair or rework (non-value added activity)
+
+--- Lean visuals --- 
+kanban boards, shadow boards, andon and floor markings (airport for example).
+Floor Markings (make it easier, safe)
+Andon - colorful light signals 
+Shadow boards - Place like a board to place all tools and everyone can see if something is missing or
+everything is ready for the next day
+Kanban boards - sticky notes - to do , doing, done (place the board where there is high traffic)
