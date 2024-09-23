@@ -14,3 +14,40 @@ of distribution looks a like a normal distribution, with a mean and some points 
 Then we plot the process performance mean over time and we have the limits (upper and low) and this are -3 and +3 sigma. sigma is the standard deviation in this case 
 We need to tackle the assignable variation (fatigue, wear, distraction)
 Depending on the data (discrete like good/bad, number of defects per unit; or continuos like weight, temperature etc), we choose a chart for the control 
+
+--- Selecting control chart --- 
+Discrete: Count (defect, errors) or classified (defective)
+:: Sample size constant or variable size?
+Continuos
+::Sample size? 1-2, 3-9 or >10. it can be sample of 150 parts for example 
+
+
+--- DISCRETE DATA --- 
+c(ount)-chart? Discrete and we are counting errors, with a sample size constant (like always 150 shoes with different deffects)
+
+u (count)-chart? Discrete and we are counting defectives with varying sample size (accidents per deliveries per day for example)
+
+np-chart? classified (dirty, broken, bad, good) with same sample size 
+
+p-chart? we monitor the proportion. like the number of failing students per total students in semester 
+
+--- CONTINUOUS DATA ---
+I MR-chart? with sampling size small like 1 or 2 when sampling is expensive. 2 charts
+X-R chart? Average between subgroup (x), Range between subgroup (R)
+X-S chart? S is the SD within subgroup
+
+
+--- SELECTING THE VARIABLE ---
+Sample size (n)
+Frequency
+Measuring method 
+Range
+Grande average
+etc
+Just calculate using the formula
+
+
+
+
+
+
