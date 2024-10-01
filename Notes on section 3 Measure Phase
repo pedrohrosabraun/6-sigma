@@ -34,8 +34,40 @@ calcular a media geometrica usando uma funcao com for loop
 calcular geo mean 
 
 --- MEAN OR MEDIAN? ---
-Use both. Mean is more sensitive to bigger values
-Median is the middle term of all terms 
+Use both. Mean is more sensitive to bigger values (and outliers)
+Median is the middle term of all terms
+
+--- BOX PLOT --- 
+Top whisker 
+Bottom whisker
+Range of values 
+Median (order of values from low to high) STRAIGTH LINE
+Mean (symbol inside the box)
+Bottom of the box (box between whiskers) is the median Q1 
+Top of the box (box between whiskers) is the median Q3
+Once you order your data from low to high, Q3 is the median (or middle value) of the higher half of the data. Q1 is the median (or middle value) of the lower half. 
+Above or beyond the whiskers: Outliers 
+How we determine Outlier?
+IQR: Q3-Q1
+•	All value that are below 1.5 x IQR from Q1 are considered outliers. 
+•	All values that are above 1.5 x IQR from Q3 are considered outliers
+
+
+--- ROLL THROUGHPUT YIELD ---
+One of the ovverall measure of quality (RTY)
+Just multiply the First pass yield of each process (in decimals)
+
+
+--- CONFIDENCE INTERVAL ---
+It gives the range on which the number measured (mean or any other mark) will fall if we repeat the experiments
+Ex: I measured an average of 100 hours per month of gym of 200 handball players with a conf. interval of 30%
+That means if I repear the measurement the number mean will fall between a range calculated
+That range is calculated as: mean-ZSCORE*SE
+The smaller the confidence interval, the better. More credibility. 
+We find the ZSCORE based on our confidence interval (CL) and the area calculated on the normal distribution curve to the left of z+
+The area (for a normal distribution!!) to the left of z is: (1+CL)/2
+Then you find the calculated area on the table and check for the indexes and columns and get the zscore
+
 
 --- SAMPLE OR POPULATION
 Sample is considered a subset of the population (n)
@@ -44,7 +76,7 @@ Population is all data (N)
 --- SAMPLING TECHNIQUES ---
 Probability sampling techniques (same chance for all population)
 - Considers the whole population (like a lottery)
--- Systematic sampling every n th sample is pick
+- Systematic sampling every n th sample is pick
 
 -- Stratified sampling (GOLDEN STANDARD) - ONLY IF YOU KNOW THE PROPORTIONS!!!!!
 Takes into account the proportion of between the different types of your sample (cars and people, blue and black). than calculates the strata and takes this into account when sampling 
@@ -60,10 +92,12 @@ You can plot it using seaborn and countplot or histogram
 Mathematic inspection (tests) - Smirnov-test p-value to reject the null hypothesis 
 
 RULE OF THUMB 
-68, 95, 99% fall into sigma, 2sigma, 3 sigma, respectively 
+68, 95, 99% fall into 1 sigma(standard deviation), 2sigma, 3 sigma, respectively 
 
 Z-SCORE TABLE (ROUGHLY ESTIMATION BECAUSE OF THE NORMAL DISTRIBUTUON NOT PERFECT ALSO)
-- Score is the sample number Z=(Score-mean)/(standard deviation) 
+- The numbers inside the table are the calculated area based on a normal distribution
+- The indexes are used to check the z-score 
+- Score is the sample number/data/whatever your are measuring Zscore=(Score-mean)/(standard deviation) 
 - Then you read your Z on the table and the last digits 
 - The number found is the remaining area (percentage) on the curve. it means how far is the data from the mean
 - A z-score tells us the number of standard deviations a value is from the mean of a given distribution. negative z-scores indicate the value lies below the mean. positive z-scores indicate the value lies above the mean.
