@@ -1,5 +1,7 @@
 --- Analyze phase ---
 Root cause of your problem??
+QUALITATIVE TOOLS: 5 WHY ANALYSIS
+QUANTITATIVE TOOLS: CORRELATION, REGRESSION etc
 
 --- PITFALLS ---
 1 Correlation is different then causality
@@ -12,3 +14,16 @@ Residuals: distance between regression function and raw data (y axis)
 Homoscedastic: Residuals distributed evenly
 Heteroscedastic: Residuals distributed unevenly
 Use LinearRegression from sklearn models in Python to get the Rsquared 
+
+--- MULTIPLE ORDINARY LEAST SQUARES REGRESSION ---
+Takes into account more then 1 variable. 
+It quantifies the effect of variables as pure effect (only 1 variable when keeping the others variable)
+When using Multiple OLS Y:parametric // X: parametric or nominal (binary)
+- we have to avoid correlation between the studied variables 
+here you can use sns.heatmap to check correlation between variables 
+threshold of 0.8 
+- avoid too many variables
+- use enough data 30+15
+
+ANOVA table - check the F significance value. Has to be smaller than 0.05 
+Then check the table of coefficients. It calculates coefficients considering the 1 or more variable is maintained constant 

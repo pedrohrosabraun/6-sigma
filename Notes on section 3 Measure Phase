@@ -15,6 +15,10 @@ Dont bundle 2 questions in 1 question
 2 Interview take more time but gives more insights. Usually range between 10 and 30 interviews
 3 Observation. We do that in cases where no one knows about the project or cant answer the questions 
 
+--- Observational studies (Eye Tracking)---
+Good for website, user friendly researches
+--- Divide Team for clusters of different types of data ---
+
 --- Measuring Scales ---
 
 Nominal or categorical variables features: Words cannot be put in low-high scale/range
@@ -58,16 +62,22 @@ One of the ovverall measure of quality (RTY)
 Just multiply the First pass yield of each process (in decimals)
 
 
---- CONFIDENCE INTERVAL ---
+--- CONFIDENCE INTERVAL --- (check z-score table below)
 It gives the range on which the number measured (mean or any other mark) will fall if we repeat the experiments
-Ex: I measured an average of 100 hours per month of gym of 200 handball players with a conf. interval of 30%
-That means if I repear the measurement the number mean will fall between a range calculated
-That range is calculated as: mean-ZSCORE*SE
+Ex: I measured an average of 100 hours per month of gym of 200 handball players with a conf. interval of and with 95%
+That means if I repear the measurement the number mean will fall between a range calculated for 95% of the cases
+That range is calculated as: mean-(ZSCORE*SE)
 The smaller the confidence interval, the better. More credibility. 
 We find the ZSCORE based on our confidence interval (CL) and the area calculated on the normal distribution curve to the left of z+
 The area (for a normal distribution!!) to the left of z is: (1+CL)/2
 Then you find the calculated area on the table and check for the indexes and columns and get the zscore
+SE is the standard error and it different from the SD. It is calculated differently for decimals or proportions and whole numbers. check the formula on internet. Remember to calculate the SE for proportion in decimals and convert back to percentage when calculating the confidence interval
+- alpha level is 100 minus the confidence interval 
+- on Excel it skips a step. it already calculateS (ZSCORE*SE). you just have to sum or subtract from the mean.
+- For a sample of at least 40, use CONFIDENCE.NORM
 
+- For a sample smaller than 40, use CONFIDENCE.T (it uses t-distribution)
+The t-distribution is similar to the normal distribution, with its bell shape, but it has heavier tails. It is used for estimating population parameters for small sample sizes or unknown variances. T-distributions have a greater chance for extreme values than normal distributions, and as a result have fatter tails.
 
 --- SAMPLE OR POPULATION
 Sample is considered a subset of the population (n)
