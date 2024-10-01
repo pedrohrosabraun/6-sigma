@@ -3,7 +3,15 @@ DOE, PokeYoke, Lean Visual Management
 --- DOE ---
 Factorial Design (>1 Factors like 2 factors and with levels)
 Number of experiments depends on the levels of each factors (multiply by themselves)
-We have also the interaction effect 
+We have also the interaction effect. 
+(levels of each factor)**factors
+avaliar tbm se o melhor resultado é o mais viável tbm (custo, tempo, esforco)
+Check doepy library in python and calculating metrics 
+
+OFAT (one factor at a time)
+change only 1 factor and leave the others the same 
+doesnt consider the interaction effect
+
 
 --- Poka yoke ---
 Mistakes by the operator 
@@ -17,3 +25,60 @@ Andon - colorful light signals
 Shadow boards - Place like a board to place all tools and everyone can see if something is missing or
 everything is ready for the next day
 Kanban boards - sticky notes - to do , doing, done (place the board where there is high traffic)
+
+-- FMEA (Failure Mode Effect Analysis) ---
+~we do that in a group 
+~there is a high level of subjectivity when scoring SOD. thats why we do it in GROUP to avoid biases
+Failure mode: What bad could happen?
+Effect: What is the effect? What would happen 
+S: Severity score 1-10, 10 means major impact on user
+
+Cause of the failure mode: What caused the problem? Could be more than 1
+Occurence: 1-10 what is the possibility to happen? 
+Detectability: Can we detect BEFORE it happens? 1-10, 10 means it is not easy to detect, so it is bad. 
+
+RPN: Risk product number: Multiply S, O and D
+The higher the RPN, the more urgent you have to look at it
+ACTION: you take action
+then rescore SOD and recalculate the RPN 
+
+--- Theory of constaints --- 
+Detect the bottleneck of a process (weakest link or slowest part of the process)
+SMED is one of the tools to reduce the time of the bottlenecks inside a working station
+When looking through a whole process, we cannot accelerate one step when it heaps up and accumulate before the next step 
+
+--- 20/60/20 ---
+-20 % will hate the changes
+60% are not sure
++20 % will embrace anything you suggest
+
+focus on the 60% and try to bring the -20% closer and hear them 
+
+--- RACI Matrix --- 
+R: Responsible who execute tasks
+A: Accountable final decision, project owner
+C: Consulted consulted before executing tasks
+I: Informed informed about important actions 
+
+A must be there at least for one person (and only one)
+
+--- Quality Function deployment QFD --- 
+House of quality 
+Matrix that lists and correlates the VOC and controlled factors 
+Each VOC has a weigth and it shows the importance factors (on the bottom)
+Competition: How are the competition doing? right side bar from 1-5. 5 is good 
+
+--- Hoshin Kanri matrix --- 
+
+X-matrix 
+
+This tool is very useful because it translates your strategic goals (your improvement program) into several concrete steps, it translates them into annual goals, concrete improvement priorities, metrics and finally also assigns responsibilities. It prevents loose ends
+
+Improvement priorities 
+Annual Goals 
+KPIs - Key performance indicator 
+Strategic goals 
+- Primary or secondary relationship 
+- Use symbols just like QFD House 
+GIVE CONCRETE VALUES FOR THE GOALS
+
