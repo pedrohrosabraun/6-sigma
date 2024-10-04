@@ -47,6 +47,14 @@ etc
 Just calculate using the formula
 
 
+--- AUDIT AND VISUAL CONTROL ---
+
+--- DASHBOARD ---
+EDA of the data using excel but I am also plotting using plotly and pandas and matplotlib
+Excel is easy, just watch the video and make the interactive plot
+
+You want a dashboard that gives early warning signals if your problem is not under control. Make sure your dashboard contains the early warnings related to your problem. What are those early warnings? It depends. There is no “one size fits all” answer here. In general, it helps if you reason backwards. For example, an early warning of low revenue is low customer satisfaction, long delivery times, high % of flawed products that need repairs etc. So you would choose wisely if you include customer satisfaction, delivery time and % of flawed products in your dashboard
+
 
 
 
